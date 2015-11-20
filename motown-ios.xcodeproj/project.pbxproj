@@ -9,23 +9,47 @@
 /* Begin PBXBuildFile section */
 		21916EF31BFAA0AF00BA3F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21916EF21BFAA0AF00BA3F38 /* AppDelegate.swift */; };
 		21916EF61BFAA0AF00BA3F38 /* motown_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21916EF41BFAA0AF00BA3F38 /* motown_ios.xcdatamodeld */; };
-		21916EF81BFAA0AF00BA3F38 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21916EF71BFAA0AF00BA3F38 /* MasterViewController.swift */; };
-		21916EFA1BFAA0AF00BA3F38 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21916EF91BFAA0AF00BA3F38 /* DetailViewController.swift */; };
+		21916EFA1BFAA0AF00BA3F38 /* TrackStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21916EF91BFAA0AF00BA3F38 /* TrackStreamViewController.swift */; };
 		21916EFD1BFAA0AF00BA3F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21916EFB1BFAA0AF00BA3F38 /* Main.storyboard */; };
 		21916EFF1BFAA0AF00BA3F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21916EFE1BFAA0AF00BA3F38 /* Assets.xcassets */; };
 		21916F021BFAA0AF00BA3F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21916F001BFAA0AF00BA3F38 /* LaunchScreen.storyboard */; };
+		21916F0A1BFAA70D00BA3F38 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21916F091BFAA70D00BA3F38 /* Models.swift */; };
+		21916F0E1BFAA7E500BA3F38 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F0D1BFAA7E500BA3F38 /* Bolts.framework */; };
+		21916F101BFAA82E00BA3F38 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F0F1BFAA82E00BA3F38 /* Parse.framework */; };
+		21916F121BFAA84A00BA3F38 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F111BFAA84A00BA3F38 /* AudioToolbox.framework */; };
+		21916F141BFAA85400BA3F38 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F131BFAA85400BA3F38 /* CFNetwork.framework */; };
+		21916F161BFAA85C00BA3F38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F151BFAA85C00BA3F38 /* CoreGraphics.framework */; };
+		21916F181BFAA86E00BA3F38 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F171BFAA86E00BA3F38 /* CoreLocation.framework */; };
+		21916F1A1BFAA88D00BA3F38 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F191BFAA88D00BA3F38 /* QuartzCore.framework */; };
+		21916F1C1BFAA89700BA3F38 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F1B1BFAA89700BA3F38 /* Security.framework */; };
+		21916F1E1BFAA8A100BA3F38 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F1D1BFAA8A100BA3F38 /* StoreKit.framework */; };
+		21916F201BFAA8AB00BA3F38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F1F1BFAA8AB00BA3F38 /* SystemConfiguration.framework */; };
+		21916F221BFAA8B400BA3F38 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F211BFAA8B400BA3F38 /* libz.tbd */; };
+		21916F241BFAA8BE00BA3F38 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21916F231BFAA8BE00BA3F38 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21916EEF1BFAA0AF00BA3F38 /* motown-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "motown-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21916EF21BFAA0AF00BA3F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21916EF51BFAA0AF00BA3F38 /* motown_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = motown_ios.xcdatamodel; sourceTree = "<group>"; };
-		21916EF71BFAA0AF00BA3F38 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		21916EF91BFAA0AF00BA3F38 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		21916EF91BFAA0AF00BA3F38 /* TrackStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackStreamViewController.swift; sourceTree = "<group>"; };
 		21916EFC1BFAA0AF00BA3F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21916EFE1BFAA0AF00BA3F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21916F011BFAA0AF00BA3F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21916F031BFAA0AF00BA3F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21916F091BFAA70D00BA3F38 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		21916F0D1BFAA7E500BA3F38 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		21916F0F1BFAA82E00BA3F38 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		21916F111BFAA84A00BA3F38 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		21916F131BFAA85400BA3F38 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		21916F151BFAA85C00BA3F38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21916F171BFAA86E00BA3F38 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		21916F191BFAA88D00BA3F38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		21916F1B1BFAA89700BA3F38 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		21916F1D1BFAA8A100BA3F38 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		21916F1F1BFAA8AB00BA3F38 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		21916F211BFAA8B400BA3F38 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		21916F231BFAA8BE00BA3F38 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21916F241BFAA8BE00BA3F38 /* libsqlite3.tbd in Frameworks */,
+				21916F221BFAA8B400BA3F38 /* libz.tbd in Frameworks */,
+				21916F201BFAA8AB00BA3F38 /* SystemConfiguration.framework in Frameworks */,
+				21916F1E1BFAA8A100BA3F38 /* StoreKit.framework in Frameworks */,
+				21916F1C1BFAA89700BA3F38 /* Security.framework in Frameworks */,
+				21916F1A1BFAA88D00BA3F38 /* QuartzCore.framework in Frameworks */,
+				21916F181BFAA86E00BA3F38 /* CoreLocation.framework in Frameworks */,
+				21916F161BFAA85C00BA3F38 /* CoreGraphics.framework in Frameworks */,
+				21916F141BFAA85400BA3F38 /* CFNetwork.framework in Frameworks */,
+				21916F121BFAA84A00BA3F38 /* AudioToolbox.framework in Frameworks */,
+				21916F101BFAA82E00BA3F38 /* Parse.framework in Frameworks */,
+				21916F0E1BFAA7E500BA3F38 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +78,7 @@
 		21916EE61BFAA0AF00BA3F38 = {
 			isa = PBXGroup;
 			children = (
+				21916F251BFAA8E300BA3F38 /* Frameworks */,
 				21916EF11BFAA0AF00BA3F38 /* motown-ios */,
 				21916EF01BFAA0AF00BA3F38 /* Products */,
 			);
@@ -59,15 +96,34 @@
 			isa = PBXGroup;
 			children = (
 				21916EF21BFAA0AF00BA3F38 /* AppDelegate.swift */,
-				21916EF71BFAA0AF00BA3F38 /* MasterViewController.swift */,
-				21916EF91BFAA0AF00BA3F38 /* DetailViewController.swift */,
+				21916EF91BFAA0AF00BA3F38 /* TrackStreamViewController.swift */,
 				21916EFB1BFAA0AF00BA3F38 /* Main.storyboard */,
+				21916F091BFAA70D00BA3F38 /* Models.swift */,
 				21916EFE1BFAA0AF00BA3F38 /* Assets.xcassets */,
 				21916F001BFAA0AF00BA3F38 /* LaunchScreen.storyboard */,
 				21916F031BFAA0AF00BA3F38 /* Info.plist */,
 				21916EF41BFAA0AF00BA3F38 /* motown_ios.xcdatamodeld */,
 			);
 			path = "motown-ios";
+			sourceTree = "<group>";
+		};
+		21916F251BFAA8E300BA3F38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21916F231BFAA8BE00BA3F38 /* libsqlite3.tbd */,
+				21916F211BFAA8B400BA3F38 /* libz.tbd */,
+				21916F1F1BFAA8AB00BA3F38 /* SystemConfiguration.framework */,
+				21916F1D1BFAA8A100BA3F38 /* StoreKit.framework */,
+				21916F1B1BFAA89700BA3F38 /* Security.framework */,
+				21916F191BFAA88D00BA3F38 /* QuartzCore.framework */,
+				21916F171BFAA86E00BA3F38 /* CoreLocation.framework */,
+				21916F151BFAA85C00BA3F38 /* CoreGraphics.framework */,
+				21916F131BFAA85400BA3F38 /* CFNetwork.framework */,
+				21916F111BFAA84A00BA3F38 /* AudioToolbox.framework */,
+				21916F0F1BFAA82E00BA3F38 /* Parse.framework */,
+				21916F0D1BFAA7E500BA3F38 /* Bolts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +199,8 @@
 			files = (
 				21916EF31BFAA0AF00BA3F38 /* AppDelegate.swift in Sources */,
 				21916EF61BFAA0AF00BA3F38 /* motown_ios.xcdatamodeld in Sources */,
-				21916EF81BFAA0AF00BA3F38 /* MasterViewController.swift in Sources */,
-				21916EFA1BFAA0AF00BA3F38 /* DetailViewController.swift in Sources */,
+				21916EFA1BFAA0AF00BA3F38 /* TrackStreamViewController.swift in Sources */,
+				21916F0A1BFAA70D00BA3F38 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +311,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "motown-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.twoniverse.motown-ios";
@@ -266,6 +326,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "motown-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.twoniverse.motown-ios";
@@ -292,6 +356,7 @@
 				21916F081BFAA0AF00BA3F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
